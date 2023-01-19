@@ -36,7 +36,7 @@
 &nbsp;
 <span><img src="https://img.shields.io/badge/Firebase-282C34?logo=firebase&logoColor=FFCA28" alt="Firebase logo" title="Firebase" height="25" /></span>
 &nbsp;
-<span><img src="https://img.shields.io/badge/WordPress-282C34?logo=wordPress&logoColor=21759B" alt="WordPress logo" title="WordPress" height="25" /></span>
+<span><img src="https://icons8.com/mega-creator/illustration/63c955ca99f0be001f6a776b" alt="WordPress logo" title="WordPress" height="25" /></span>
 &nbsp;
 
 <br>
@@ -54,7 +54,4 @@
 </a>
   <a href="mailto:dom260307@gmail.com" target="top">
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="trungquandev-email" />
-<br>
-</p>
-<p><strong>😓 Kid đú lập trình ?</strong></p>
-<p><strong>ℕ𝕘𝕦𝕪𝕖̂̃𝕟 𝕋𝕦𝕒̂́𝕟 𝔻𝕦̛𝕠̛𝕟𝕘</strong></p>
+
