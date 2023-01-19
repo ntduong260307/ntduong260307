@@ -24,8 +24,6 @@
     <img src="https://img.icons8.com/fluent/48/000000/mailing.png"/>
   </a>
 </p>
-
-## Skills:
 <h2 align="center">🛠 Technologies and Tools 🛠</h2>
 <br>
 <!-- https://simpleicons.org/ -->
@@ -71,6 +69,7 @@
 &nbsp;
 
 <br>
+  
 ## Activities:
 <table style="width:100%;">
   <tr>
