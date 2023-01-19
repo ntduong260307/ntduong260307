@@ -118,3 +118,8 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 <p><strong> 😓 Kid Đú Lập Trình ? </strong></p>
 <p><strong> 𝓝𝓰𝓾𝔂𝓮̂̃𝓷 𝓣𝓾𝓪̂́𝓷 𝓓𝓾̛𝓸̛𝓷𝓰 <p><strong>
 <p><strong> 7002-30-62 <p><strong>
+<!-- Trungquandev -->
+<a href="#" target="_blank">
+  <img src="svg/trungquandev.svg" width="1200" alt="trungquandev-official" />
+</a>
+
