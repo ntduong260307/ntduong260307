@@ -1,254 +1,134 @@
-//////////////////////////////////////////////////////////////
-function onCreate() {
-    ShowToast();
-}
-//▬▬▬▬▬▬▬▬▬▬
-// TOAST
-//▬▬▬▬▬▬▬▬▬▬
-function ShowToast() {
-    var x = document.getElementById("Toast");
-    x.className = "show";
-    setTimeout(function() { x.className = x.className.replace("show", ""); }, 3900);
-}
-//▬▬▬▬▬▬▬▬▬▬
-// FPS WEBS
-//▬▬▬▬▬▬▬▬▬▬
-var fps = document.getElementById("fps");
+<!DOCTYPE html>
+<html lang="en">
 
-var startTime = Date.now();
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="shortcut icon" href="https://i.imgur.com/R4YNDY5.jpg" type="image/x-icon">
+    <title>XuanNghiep | Profile</title>
+    <link rel="stylesheet" href="assets/XuanNghiep1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="assets/XuanNghiep2.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <meta name="author" content="Đây Là Website Của NghiepMeow-Dev, Rất Mong Được Chào Đón Bạn !">
+    <meta property="og:title" content="HELLO TA CHI HẢO - THIS IS Bố Nghiệp !">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://subxuannghiep.com">
+    <meta property="og:image" content="http://thanhdieu.com/files/thanhdieugirl.jpg">
+    <meta property="og:image:width" content="120">
+    <meta property="og:image:height" content="120">
+    <meta property="og:site_name" content="NghiepMeow">
+    <meta name="theme-color" content="#00FFFF" />
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js' type='text/javascript'></script>
+</head>
+</div>
 
-var frame = 0;
+<body class="Border" onLoad="onCreate()">
+    <div class="BlurWebs">
+        <div class="Topnav">
+            <a class="Active">HOME</a>
+            <a style="color:red;">
+                <span id="fps">60.0</span> FPS</a>
+        </div>
+        <br>
+        <!-- ===== ❀ NƠI EDIT AVATAR ❀ ===== -->
+        <p align="center">
+            <img class="Blob" src="https://img.win3000.com/m00/48/02/085e1a8c2dec126cfd3ec0b17994bbec.jpg" width="96" height="96" alpha="@XuanNghiep@"></p>
+        <h2 class="NameFtXuanNghiep" align="center">
+            Lưu Xuân Nghiệp <i class="fa fa-check-circle"></i></h2>
+        <h2 class="TieuSu">
+            Hey brother, I'm a Developer.<br>I like website design :3</h2>
+        <br>
+        <hr class="New"><br>
+        <!-- Thông Tin Liên Hệ -->
+        <h2 class="NameFtXuanNghiep">
+            Contact Social
+        </h2>
+        <ul class="icons">
+            <br>
+            <div class="MangXaHoiFtXuanNghiep">
+                <a id="TikTok" onClick="TikTok()">
+                    <div class="TikTok">TikTok</div>
+                </a>
+                <br>
+                <a id="Facebook" onClick="Facebook()">
+                    <div class="Facebook">Facebook</div>
+                </a>
+                <br>
+                <a id="Github" onClick="Github()">
+                    <div class="Github">Github</div>
+                </a>
+                <br>
+                <a id="Telegram" onClick="Telegram()">
+                    <div class="Telegram">Telegram</div>
+                </a>
+                <br>
+            </div>
+            <br>
+            <hr class="New"><br>
+            <!-- ===== Thông Tin Thanh Toán - Có Thể Thêm Đoạn Văn Bản Giới Thiệu Ngắn Về Bản Thân  <button> <i class="fa fa-clone"></button> ===== -->
+            <div class="NameFtXuanNghiep">
+                <h2>Mobile Banks</h2>
+            </div>
+            <div class="ThongTinThanhToan">
+                <p class="ThongTinThanhToanTitle">Vietcombank</p>
+                <p class="ThongTinThanhToanText">STK: 1030477114|| CTK LUU XUAN NGHIEP</p>
+            </div>
+            <br>
+            <div class="ThongTinThanhToan">
+                <p class="ThongTinThanhToanTitle">Momo Bank</p>
+                <p class="ThongTinThanhToanText">STK 0378202427 || CTK LUU XUAN NGHIEP</p>
+            </div>
+            <br>
+            <div class="ThongTinThanhToan">
+                <p class="ThongTinThanhToanTitle">MBBANK</p>
+                <p class="ThongTinThanhToanText">STK: 0166688889999 || CTK LUU XUAN NGHIEP</p>
+            </div>
+            <br>
+            <br>
+            <hr class="ThanhGachNgang">
+            <br>
+            <br>
+            <div class="NameFtThanhDieu">
+                <h2><i class="fas fa-code"></i> Skill Languages </h2>
+                <br>
+            </div>
+            <ul class="xuannghiepftskill outline">
+                <li class="thanhdieutransform">Javascript</li>
+                <li class="xuannghieptransform">Typescript</li>
+                <br>
+                <li class="xuannghieptransform">Yêu Em</li>
+                <li class="xuannghieptransform">Html/Css</li>
+                <br>
+            </ul>
+            <br>
+            <!-- ===== Thanh Gạch Ngang ===== -->
+            <hr class="ThanhGachNgang">
+            <footer class="Cuoi Trang">
+                <p class="XuanNghiepFtCopyright">
+                    <!-- ===== Thông điệp cuối cùng cho người xem ===== -->
+                    <p class="rainbow" class="copyright">Created by
+                        <a style="text-decoration: none;" class="copyright" href="https://www.facebook.com/NghiepMeow.Developer">
+                            <font class="rainbow" color="white"> XuanNghiep</font>
+                        </a>
+                        <br> <strong>All rights reserved - © 2022 </strong></p>
+            </footer>
+    </div>
+    <div id="Toast">Welcome to the website Lưu Xuân Nghiệp :)</div>
+    <script type="text/javascript" src="./javascript/index.js"></script>
+    <script type="text/javascript">
+        var fps = document.getElementById("fps");
+        var startTime = Date.now();
+        var frame = 0;
 
-function tick() {
-
-    var time = Date.now();
-
-    frame++;
-
-    if (time - startTime > 1000) {
-
-        fps.innerHTML = (frame / ((time - startTime) / 1000)).toFixed(1);
-
-        startTime = time;
-
-        frame = 0;
-
-    }
-    window.requestAnimationFrame(tick);
-
-}
-
-tick();
-
-//▬▬▬▬▬▬▬▬▬▬
-// LINK
-//▬▬▬▬▬▬▬▬▬▬
-
-function TikTok() {
-    setTimeout(function() {
-            window.open('https://www.tiktok.com/@nghiepcoder16', 'ultimate')
-        },
-        100);
-}
-
-function Facebook() {
-    setTimeout(function() {
-            window.open('https://www.facebook.com/NghiepMeow.Developer', 'ultimate')
-        },
-        100);
-}
-
-function Github() {
-    setTimeout(function() {
-            window.open('https://github.com/NghiepCoder16', 'ultimate')
-        },
-        100);
-}
-
-function Telegram() {
-    setTimeout(function() {
-            window.open('https://t.me/NghiepMeow', 'ultimate')
-        },
-        100);
-}
-
-function DarkMode() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-}
-//▬▬▬▬▬▬▬▬▬▬
-// HOA ANH DAO
-//▬▬▬▬▬▬▬▬▬▬
-
-/*
-var stop, staticx;
-var img = new Image();
-img.src = "https://i.imgur.com/R9XUjfF.png";
-
-			function Sakura(x, y, s, r, fn) {
-				this.x = x;
-				this.y = y;
-				this.s = s;
-				this.r = r;
-				this.fn = fn;
-			}
-
-			Sakura.prototype.draw = function(cxt) {
-				cxt.save();
-				var xc = 40 * this.s / 4;
-				cxt.translate(this.x, this.y);
-				cxt.rotate(this.r);
-				cxt.drawImage(img, 0, 0, 40 * this.s, 40 * this.s)
-				cxt.restore();
-			}
-
-			Sakura.prototype.update = function() {
-				this.x = this.fn.x(this.x, this.y);
-				this.y = this.fn.y(this.y, this.y);
-				this.r = this.fn.r(this.r);
-				if(this.x > window.innerWidth ||
-					this.x < 0 ||
-					this.y > window.innerHeight ||
-					this.y < 0
-				) {
-					this.r = getRandom('fnr');
-					if(Math.random() > 0.4) {
-						this.x = getRandom('x');
-						this.y = 0;
-						this.s = getRandom('s');
-						this.r = getRandom('r');
-					} else {
-						this.x = window.innerWidth;
-						this.y = getRandom('y');
-						this.s = getRandom('s');
-						this.r = getRandom('r');
-					}
-				}
-			}
-
-			SakuraList = function() {
-				this.list = [];
-			}
-			SakuraList.prototype.push = function(sakura) {
-				this.list.push(sakura);
-			}
-			SakuraList.prototype.update = function() {
-				for(var i = 0, len = this.list.length; i < len; i++) {
-					this.list[i].update();
-				}
-			}
-			SakuraList.prototype.draw = function(cxt) {
-				for(var i = 0, len = this.list.length; i < len; i++) {
-					this.list[i].draw(cxt);
-				}
-			}
-			SakuraList.prototype.get = function(i) {
-				return this.list[i];
-			}
-			SakuraList.prototype.size = function() {
-				return this.list.length;
-			}
-
-			function getRandom(option) {
-				var ret, random;
-				switch(option) {
-					case 'x':
-						ret = Math.random() * window.innerWidth;
-						break;
-					case 'y':
-						ret = Math.random() * window.innerHeight;
-						break;
-					case 's':
-						ret = Math.random();
-						break;
-					case 'r':
-						ret = Math.random() * 5;
-						break;
-					case 'fnx':
-						random = -0.5 + Math.random() * 1;
-						ret = function(x, y) {
-							return x + 0.5 * random - 1;
-						};
-						break;
-					case 'fny':
-						random = 0.5 + Math.random() * 0.5
-						ret = function(x, y) {
-							return y + random;
-						};
-						break;
-					case 'fnr':
-						random = Math.random() * 0.01;
-						ret = function(r) {
-							return r + random;
-						};
-						break;
-				}
-				return ret;
-			}
-
-			function startSakura() {
-
-				requestAnimationFrame = window.requestAnimationFrame ||
-					window.mozRequestAnimationFrame ||
-					window.webkitRequestAnimationFrame ||
-					window.msRequestAnimationFrame ||
-					window.oRequestAnimationFrame;
-				var canvas = document.createElement('canvas'),
-					cxt;
-				staticx = true;
-				canvas.height = window.innerHeight;
-				canvas.width = window.innerWidth;
-				canvas.setAttribute('style', 'position: fixed;left: 0;top: 0;pointer-events: none;');
-				canvas.setAttribute('id', 'canvas_sakura');
-				document.getElementsByTagName('body')[0].appendChild(canvas);
-				cxt = canvas.getContext('2d');
-				var sakuraList = new SakuraList();
-				for(var i = 0; i < 50; i++) {
-					var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
-					randomX = getRandom('x');
-					randomY = getRandom('y');
-					randomR = getRandom('r');
-					randomS = getRandom('s');
-					randomFnx = getRandom('fnx');
-					randomFny = getRandom('fny');
-					randomFnR = getRandom('fnr');
-					sakura = new Sakura(randomX, randomY, randomS, randomR, {
-						x: randomFnx,
-						y: randomFny,
-						r: randomFnR
-					});
-					sakura.draw(cxt);
-					sakuraList.push(sakura);
-				}
-				stop = requestAnimationFrame(function() {
-					cxt.clearRect(0, 0, canvas.width, canvas.height);
-					sakuraList.update();
-					sakuraList.draw(cxt);
-					stop = requestAnimationFrame(arguments.callee);
-				})
-			}
-
-			window.onresize = function() {
-				var canvasSnow = document.getElementById('canvas_snow');
-				canvasSnow.width = window.innerWidth;
-				canvasSnow.height = window.innerHeight;
-			}
-
-			img.onload = function() {
-				startSakura();
-			}
-
-			function stopp() {
-				if(staticx) {
-					var child = document.getElementById("canvas_sakura");
-					child.parentNode.removeChild(child);
-					window.cancelAnimationFrame(stop);
-					staticx = false;
-				} else {
-					startSakura();
-				}
-			}
-		
-		
-*/
-//////////////////////////////////////////////////////////////
+        function tick() {
+            var time = Date.now();
+            frame++;
+            if (time - startTime > 1000) {
+                fps.innerHTML = (frame / ((time - startTime) / 1000)).toFixed(1);
+                startTime = time;
+                frame = 0;
+            }
+            window.requestAnimationFrame(tick);
+        }
+        tick();
