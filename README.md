@@ -1,56 +1,254 @@
+//////////////////////////////////////////////////////////////
+function onCreate() {
+    ShowToast();
+}
+//▬▬▬▬▬▬▬▬▬▬
+// TOAST
+//▬▬▬▬▬▬▬▬▬▬
+function ShowToast() {
+    var x = document.getElementById("Toast");
+    x.className = "show";
+    setTimeout(function() { x.className = x.className.replace("show", ""); }, 3900);
+}
+//▬▬▬▬▬▬▬▬▬▬
+// FPS WEBS
+//▬▬▬▬▬▬▬▬▬▬
+var fps = document.getElementById("fps");
 
-<span><img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/TypeScript-282C34?logo=typescript&logoColor=3178C6" alt="TypeScript logo" title="TypeScript" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/ReactJS-282C34?logo=react&logoColor=61DAFB" alt="ReactJS logo" title="ReactJS" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Redux-282C34?logo=redux&logoColor=764ABC" alt="Redux logo" title="Redux" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Vue.js-282C34?logo=vue.js&logoColor=4FC08D" alt="Vue.js logo" title="Vue.js" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Nuxt.js-282C34?logo=nuxt.js&logoColor=4FC08D" alt="Nuxt.js logo" title="Nuxt.js" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Node.js-282C34?logo=node.js&logoColor=00F200" alt="Node.js logo" title="Node.js" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Express-282C34?logo=express&logoColor=FFFFFF" alt="Express.js logo" title="Express.js" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/MongoDB-282C34?logo=mongodb&logoColor=47A248" alt="MongoDB logo" title="MongoDB" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Tailwind%20CSS-282C34?logo=tailwind-css&logoColor=38B2AC" alt="TailwindCSS logo" title="TailwindCSS" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Three.js-282C34?logo=three.js&logoColor=FFFFFF" alt="Three.js logo" title="Three.js" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/HTML5-282C34?logo=html5&logoColor=E34F26" alt="HTML5 logo" title="HTML5" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Sass-282C34?logo=sass&logoColor=CC6699" alt="SASS logo" title="SASS" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Bootstrap-282C34?logo=bootstrap&logoColor=7952B3" alt="Bootstrap logo" title="Bootstrap" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/ESLint-282C34?logo=eslint&logoColor=4B32C3" alt="ESLint logo" title="ESLint" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Firebase-282C34?logo=firebase&logoColor=FFCA28" alt="Firebase logo" title="Firebase" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/WordPress-282C34?logo=wordPress&logoColor=21759B" alt="WordPress logo" title="WordPress" height="25" /></span>
-&nbsp;
+var startTime = Date.now();
 
-<br>
+var frame = 0;
 
-</div>
+function tick() {
 
-<br>
-<h2 align="center">👽 Where to find me 👽</h2>
-<br>
-<!-- https://icons8.com -->
-<div align="center">
-  </a>
-  <a href="https://www.facebook.com/DuongxDeveloperx2302?mibextid=LQQJ4d" target="blank">
-    <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="trungquandev-facebook" />
-</div>
+    var time = Date.now();
 
+    frame++;
+
+    if (time - startTime > 1000) {
+
+        fps.innerHTML = (frame / ((time - startTime) / 1000)).toFixed(1);
+
+        startTime = time;
+
+        frame = 0;
+
+    }
+    window.requestAnimationFrame(tick);
+
+}
+
+tick();
+
+//▬▬▬▬▬▬▬▬▬▬
+// LINK
+//▬▬▬▬▬▬▬▬▬▬
+
+function TikTok() {
+    setTimeout(function() {
+            window.open('https://www.tiktok.com/@nghiepcoder16', 'ultimate')
+        },
+        100);
+}
+
+function Facebook() {
+    setTimeout(function() {
+            window.open('https://www.facebook.com/NghiepMeow.Developer', 'ultimate')
+        },
+        100);
+}
+
+function Github() {
+    setTimeout(function() {
+            window.open('https://github.com/NghiepCoder16', 'ultimate')
+        },
+        100);
+}
+
+function Telegram() {
+    setTimeout(function() {
+            window.open('https://t.me/NghiepMeow', 'ultimate')
+        },
+        100);
+}
+
+function DarkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+//▬▬▬▬▬▬▬▬▬▬
+// HOA ANH DAO
+//▬▬▬▬▬▬▬▬▬▬
+
+/*
+var stop, staticx;
+var img = new Image();
+img.src = "https://i.imgur.com/R9XUjfF.png";
+
+			function Sakura(x, y, s, r, fn) {
+				this.x = x;
+				this.y = y;
+				this.s = s;
+				this.r = r;
+				this.fn = fn;
+			}
+
+			Sakura.prototype.draw = function(cxt) {
+				cxt.save();
+				var xc = 40 * this.s / 4;
+				cxt.translate(this.x, this.y);
+				cxt.rotate(this.r);
+				cxt.drawImage(img, 0, 0, 40 * this.s, 40 * this.s)
+				cxt.restore();
+			}
+
+			Sakura.prototype.update = function() {
+				this.x = this.fn.x(this.x, this.y);
+				this.y = this.fn.y(this.y, this.y);
+				this.r = this.fn.r(this.r);
+				if(this.x > window.innerWidth ||
+					this.x < 0 ||
+					this.y > window.innerHeight ||
+					this.y < 0
+				) {
+					this.r = getRandom('fnr');
+					if(Math.random() > 0.4) {
+						this.x = getRandom('x');
+						this.y = 0;
+						this.s = getRandom('s');
+						this.r = getRandom('r');
+					} else {
+						this.x = window.innerWidth;
+						this.y = getRandom('y');
+						this.s = getRandom('s');
+						this.r = getRandom('r');
+					}
+				}
+			}
+
+			SakuraList = function() {
+				this.list = [];
+			}
+			SakuraList.prototype.push = function(sakura) {
+				this.list.push(sakura);
+			}
+			SakuraList.prototype.update = function() {
+				for(var i = 0, len = this.list.length; i < len; i++) {
+					this.list[i].update();
+				}
+			}
+			SakuraList.prototype.draw = function(cxt) {
+				for(var i = 0, len = this.list.length; i < len; i++) {
+					this.list[i].draw(cxt);
+				}
+			}
+			SakuraList.prototype.get = function(i) {
+				return this.list[i];
+			}
+			SakuraList.prototype.size = function() {
+				return this.list.length;
+			}
+
+			function getRandom(option) {
+				var ret, random;
+				switch(option) {
+					case 'x':
+						ret = Math.random() * window.innerWidth;
+						break;
+					case 'y':
+						ret = Math.random() * window.innerHeight;
+						break;
+					case 's':
+						ret = Math.random();
+						break;
+					case 'r':
+						ret = Math.random() * 5;
+						break;
+					case 'fnx':
+						random = -0.5 + Math.random() * 1;
+						ret = function(x, y) {
+							return x + 0.5 * random - 1;
+						};
+						break;
+					case 'fny':
+						random = 0.5 + Math.random() * 0.5
+						ret = function(x, y) {
+							return y + random;
+						};
+						break;
+					case 'fnr':
+						random = Math.random() * 0.01;
+						ret = function(r) {
+							return r + random;
+						};
+						break;
+				}
+				return ret;
+			}
+
+			function startSakura() {
+
+				requestAnimationFrame = window.requestAnimationFrame ||
+					window.mozRequestAnimationFrame ||
+					window.webkitRequestAnimationFrame ||
+					window.msRequestAnimationFrame ||
+					window.oRequestAnimationFrame;
+				var canvas = document.createElement('canvas'),
+					cxt;
+				staticx = true;
+				canvas.height = window.innerHeight;
+				canvas.width = window.innerWidth;
+				canvas.setAttribute('style', 'position: fixed;left: 0;top: 0;pointer-events: none;');
+				canvas.setAttribute('id', 'canvas_sakura');
+				document.getElementsByTagName('body')[0].appendChild(canvas);
+				cxt = canvas.getContext('2d');
+				var sakuraList = new SakuraList();
+				for(var i = 0; i < 50; i++) {
+					var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
+					randomX = getRandom('x');
+					randomY = getRandom('y');
+					randomR = getRandom('r');
+					randomS = getRandom('s');
+					randomFnx = getRandom('fnx');
+					randomFny = getRandom('fny');
+					randomFnR = getRandom('fnr');
+					sakura = new Sakura(randomX, randomY, randomS, randomR, {
+						x: randomFnx,
+						y: randomFny,
+						r: randomFnR
+					});
+					sakura.draw(cxt);
+					sakuraList.push(sakura);
+				}
+				stop = requestAnimationFrame(function() {
+					cxt.clearRect(0, 0, canvas.width, canvas.height);
+					sakuraList.update();
+					sakuraList.draw(cxt);
+					stop = requestAnimationFrame(arguments.callee);
+				})
+			}
+
+			window.onresize = function() {
+				var canvasSnow = document.getElementById('canvas_snow');
+				canvasSnow.width = window.innerWidth;
+				canvasSnow.height = window.innerHeight;
+			}
+
+			img.onload = function() {
+				startSakura();
+			}
+
+			function stopp() {
+				if(staticx) {
+					var child = document.getElementById("canvas_sakura");
+					child.parentNode.removeChild(child);
+					window.cancelAnimationFrame(stop);
+					staticx = false;
+				} else {
+					startSakura();
+				}
+			}
+		
+		
+*/
+//////////////////////////////////////////////////////////////
