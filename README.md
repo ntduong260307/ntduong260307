@@ -1,6 +1,6 @@
-<!-- Trungquandev -->
+<!-- Dom260307Developer -->
 <a href="#" target="_blank">
-  <img src="svg/trungquandev.svg" width="1200" alt="trungquandev-official" />
+  <img src="svg/trungquandev.svg" width="1200" alt="Dom260307-official" />
 </a>
 
 <h2 align="center">🛠 Technologies and Tools 🛠</h2>
