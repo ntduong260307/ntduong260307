@@ -1,4 +1,4 @@
-<span><img src="https://icons8.com/mega-creator/illustration/63c955ca99f0be001f6a776b" alt="WordPress logo" title="WordPress" height="25" /></span>
+src="https://icons8.com/mega-creator/illustration/63c955ca99f0be001f6a776b" alt="WordPress logo" title="WordPress" height="25" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" /></span>
 &nbsp;
