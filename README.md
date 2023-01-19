@@ -51,23 +51,3 @@
   </a>
   <a href="https://www.facebook.com/DuongxDeveloperx2302?mibextid=LQQJ4d" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="trungquandev-facebook" />
-</div>
-</head>
-<body >
-    <video autoplay muted plays-inline loop>
-        <source src="./img/video (2).mp4" type="video/mp4">
-    </video>
-    <div class="container">
-        <button class="call"><i class="fa-solid fa-phone"></i></button>
-    <div class="card move">
-       <div class="imgbox">
-          <img src="./img/273938833_632355901326918_5333297370648698660_n.jpg" alt="">
-       </div>
-       <div class="name-job">
-          <h3>Trần Duy Đức</h3>
-          <h5>Web Developer</h5>
-        </div>
-        <div class="skills">
-          <button class="btn-Follow"><a href="https://www.tiktok.com/@tranduc99v9?fbclid=IwAR0dtT09iGSXdidNpFMbXaqE9cwyZGUpYacY1dto5hxUhybfaEwZpj-A5HU">Follow</a></button>
-          <button class="btn-Message"><a href="https://www.facebook.com/profile.php?id=100036575412428">Message</a>   </button>
-        </div>
