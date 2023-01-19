@@ -123,7 +123,6 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 ## Apps:
 
-<br>
 <!-- https://icons8.com
   </a>
   <a href="https://www.facebook.com/DuongxDeveloperx2302?mibextid=LQQJ4d" target="blank">
