@@ -54,3 +54,4 @@
 </a>
   <a href="mailto:dom260307@gmail.com" target="top">
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="trungquandev-email" />
+    <p><strong>𝟮𝟲𝙩𝙝𝙈𝙖𝙧𝙘𝙝
