@@ -106,10 +106,4 @@
 <br>
 <!-- https://icons8.com -->
 <div align="center">
-  </a>
-  <a href="https://www.facebook.com/DuongxDeveloperx2302?mibextid=LQQJ4d" target="blank">
-    <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="trungquandev-facebook" />
-</a>
-  <a href="mailto:dom260307@gmail.com" target="top">
-    <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="trungquandev-email" />
 <p><strong> 😓 Kid Đú Lập Trình ? </strong></p>
