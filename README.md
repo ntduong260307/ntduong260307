@@ -55,8 +55,6 @@
   <a href="mailto:dom260307@gmail.com" target="top">
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="trungquandev-email" />
 <br>
-
-<h2 align="center">📖 My MERN Stack Advanced Course 📖</h2>
 </p>
 <p><strong>😓 Kid đú lập trình ?</strong></p>
 <p><strong>ℕ𝕘𝕦𝕪𝕖̂̃𝕟 𝕋𝕦𝕒̂́𝕟 𝔻𝕦̛𝕠̛𝕟𝕘</strong></p>
