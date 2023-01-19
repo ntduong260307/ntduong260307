@@ -1,138 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- Trungquandev -->
+<a href="#" target="_blank">
+  <img src="svg/trungquandev.svg" width="1200" alt="trungquandev-official" />
+</a>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="shortcut icon" href="https://i.imgur.com/R4YNDY5.jpg" type="image/x-icon">
-    <title>XuanNghiep | Profile</title>
-    <link rel="stylesheet" href="assets/XuanNghiep1.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="assets/XuanNghiep2.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-    <meta name="author" content="Đây Là Website Của NghiepMeow-Dev, Rất Mong Được Chào Đón Bạn !">
-    <meta property="og:title" content="HELLO TA CHI HẢO - THIS IS Bố Nghiệp !">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://subxuannghiep.com">
-    <meta property="og:image" content="http://thanhdieu.com/files/thanhdieugirl.jpg">
-    <meta property="og:image:width" content="120">
-    <meta property="og:image:height" content="120">
-    <meta property="og:site_name" content="NghiepMeow">
-    <meta name="theme-color" content="#00FFFF" />
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js' type='text/javascript'></script>
-</head>
+<h2 align="center">🛠 Technologies and Tools 🛠</h2>
+<br>
+<!-- https://simpleicons.org/ -->
+<span><img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/TypeScript-282C34?logo=typescript&logoColor=3178C6" alt="TypeScript logo" title="TypeScript" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/ReactJS-282C34?logo=react&logoColor=61DAFB" alt="ReactJS logo" title="ReactJS" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Redux-282C34?logo=redux&logoColor=764ABC" alt="Redux logo" title="Redux" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Vue.js-282C34?logo=vue.js&logoColor=4FC08D" alt="Vue.js logo" title="Vue.js" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Nuxt.js-282C34?logo=nuxt.js&logoColor=4FC08D" alt="Nuxt.js logo" title="Nuxt.js" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Node.js-282C34?logo=node.js&logoColor=00F200" alt="Node.js logo" title="Node.js" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Express-282C34?logo=express&logoColor=FFFFFF" alt="Express.js logo" title="Express.js" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/MongoDB-282C34?logo=mongodb&logoColor=47A248" alt="MongoDB logo" title="MongoDB" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Tailwind%20CSS-282C34?logo=tailwind-css&logoColor=38B2AC" alt="TailwindCSS logo" title="TailwindCSS" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Three.js-282C34?logo=three.js&logoColor=FFFFFF" alt="Three.js logo" title="Three.js" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/HTML5-282C34?logo=html5&logoColor=E34F26" alt="HTML5 logo" title="HTML5" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Sass-282C34?logo=sass&logoColor=CC6699" alt="SASS logo" title="SASS" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Bootstrap-282C34?logo=bootstrap&logoColor=7952B3" alt="Bootstrap logo" title="Bootstrap" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/ESLint-282C34?logo=eslint&logoColor=4B32C3" alt="ESLint logo" title="ESLint" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Firebase-282C34?logo=firebase&logoColor=FFCA28" alt="Firebase logo" title="Firebase" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/WordPress-282C34?logo=wordPress&logoColor=21759B" alt="WordPress logo" title="WordPress" height="25" /></span>
+&nbsp;
+
+<br>
+<h2 align="center">🔥 GitHub Stats 🔥</h2>
+<!-- https://github.com/anuraghazra/github-readme-stats -->
+<br>
+<div align=center>
+  <a href="#" title="Trungquandev">
+    <img width="315" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trungquandev&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" />
+  </a>
+  <a href="#" title="Trungquandev">
+    <img align="right" width="434" src="https://github-readme-stats.vercel.app/api?username=trungquandev&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
+  </a>
 </div>
 
-<body class="Border" onLoad="onCreate()">
-    <div class="BlurWebs">
-        <div class="Topnav">
-            <a class="Active">HOME</a>
-            <a style="color:red;">
-                <span id="fps">60.0</span> FPS</a>
-        </div>
-        <br>
-        <!-- ===== ❀ NƠI EDIT AVATAR ❀ ===== -->
-        <p align="center">
-            <img class="Blob" src="https://img.win3000.com/m00/48/02/085e1a8c2dec126cfd3ec0b17994bbec.jpg" width="96" height="96" alpha="@XuanNghiep@"></p>
-        <h2 class="NameFtXuanNghiep" align="center">
-            Lưu Xuân Nghiệp <i class="fa fa-check-circle"></i></h2>
-        <h2 class="TieuSu">
-            Hey brother, I'm a Developer.<br>I like website design :3</h2>
-        <br>
-        <hr class="New"><br>
-        <!-- Thông Tin Liên Hệ -->
-        <h2 class="NameFtXuanNghiep">
-            Contact Social
-        </h2>
-        <ul class="icons">
-            <br>
-            <div class="MangXaHoiFtXuanNghiep">
-                <a id="TikTok" onClick="TikTok()">
-                    <div class="TikTok">TikTok</div>
-                </a>
-                <br>
-                <a id="Facebook" onClick="Facebook()">
-                    <div class="Facebook">Facebook</div>
-                </a>
-                <br>
-                <a id="Github" onClick="Github()">
-                    <div class="Github">Github</div>
-                </a>
-                <br>
-                <a id="Telegram" onClick="Telegram()">
-                    <div class="Telegram">Telegram</div>
-                </a>
-                <br>
-            </div>
-            <br>
-            <hr class="New"><br>
-            <!-- ===== Thông Tin Thanh Toán - Có Thể Thêm Đoạn Văn Bản Giới Thiệu Ngắn Về Bản Thân  <button> <i class="fa fa-clone"></button> ===== -->
-            <div class="NameFtXuanNghiep">
-                <h2>Mobile Banks</h2>
-            </div>
-            <div class="ThongTinThanhToan">
-                <p class="ThongTinThanhToanTitle">Vietcombank</p>
-                <p class="ThongTinThanhToanText">STK: 1030477114|| CTK LUU XUAN NGHIEP</p>
-            </div>
-            <br>
-            <div class="ThongTinThanhToan">
-                <p class="ThongTinThanhToanTitle">Momo Bank</p>
-                <p class="ThongTinThanhToanText">STK 0378202427 || CTK LUU XUAN NGHIEP</p>
-            </div>
-            <br>
-            <div class="ThongTinThanhToan">
-                <p class="ThongTinThanhToanTitle">MBBANK</p>
-                <p class="ThongTinThanhToanText">STK: 0166688889999 || CTK LUU XUAN NGHIEP</p>
-            </div>
-            <br>
-            <br>
-            <hr class="ThanhGachNgang">
-            <br>
-            <br>
-            <div class="NameFtThanhDieu">
-                <h2><i class="fas fa-code"></i> Skill Languages </h2>
-                <br>
-            </div>
-            <ul class="xuannghiepftskill outline">
-                <li class="thanhdieutransform">Javascript</li>
-                <li class="xuannghieptransform">Typescript</li>
-                <br>
-                <li class="xuannghieptransform">Yêu Em</li>
-                <li class="xuannghieptransform">Html/Css</li>
-                <br>
-            </ul>
-            <br>
-            <!-- ===== Thanh Gạch Ngang ===== -->
-            <hr class="ThanhGachNgang">
-            <footer class="Cuoi Trang">
-                <p class="XuanNghiepFtCopyright">
-                    <!-- ===== Thông điệp cuối cùng cho người xem ===== -->
-                    <p class="rainbow" class="copyright">Created by
-                        <a style="text-decoration: none;" class="copyright" href="https://www.facebook.com/NghiepMeow.Developer">
-                            <font class="rainbow" color="white"> XuanNghiep</font>
-                        </a>
-                        <br> <strong>All rights reserved - © 2022 </strong></p>
-            </footer>
-    </div>
-    <div id="Toast">Welcome to the website Lưu Xuân Nghiệp :)</div>
-    <script type="text/javascript" src="./javascript/index.js"></script>
-    <script type="text/javascript">
-        var fps = document.getElementById("fps");
-        var startTime = Date.now();
-        var frame = 0;
+<br>
+<h2 align="center">👽 Where to find me 👽</h2>
+<br>
+<!-- https://icons8.com -->
+<div align="center">
+  <a href="https://trungquandev.com" target="blank">
+    <img width="90" height="90" src="images/logo-trungquandev-transparent-bg-192x192.png" alt="trungquandev-blog" />
+  </a>
+  <a href="https://facebook.com/trungquandev" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="trungquandev-facebook" />
+  </a>
+  <a href="https://www.youtube.com/c/TrungquandevOfficial" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/youtube-squared.png" alt="trungquandev-youtube" />
+  </a>
+  <a href="https://www.linkedin.com/in/trungquandev" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="trungquandev-linkedin" />
+  </a>
+  <a href="https://instagram.com/trungquandev" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/instagram.png" alt="trungquandev-instagram" />
+  </a>
+  <a href="mailto:trungquandev.official@gmail.com" target="top">
+    <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="trungquandev-email" />
+  </a>
+</div>
 
-        function tick() {
-            var time = Date.now();
-            frame++;
-            if (time - startTime > 1000) {
-                fps.innerHTML = (frame / ((time - startTime) / 1000)).toFixed(1);
-                startTime = time;
-                frame = 0;
-            }
-            window.requestAnimationFrame(tick);
-        }
-        tick();
-    </script>
-</body>
+<br>
 
-</html>
+<h2 align="center">📖 My MERN Stack Advanced Course 📖</h2>
+<br>
+<p>
+  <a href="https://youtu.be/63opfUkPq6k" target="_blank">
+    <strong>☕ Học lập trình MERN Stack Nâng Cao (NodeJS, ReactJS, ExpressJS, MongoDB)</strong>
+  </a>
+</p>
+<p><strong>☕ Đây là một khóa học mà mình đã làm cực kỳ tâm huyết, với phong cách dạy lập trình làm dự án thực tế, chuyên nghiệp. Để các bạn có một hành trang kiến thức vững chắc cho hành trình sự nghiệp làm lập trình viên trong tương lai nhé.</strong></p>
+<p><strong>☕ Vì mỗi lần mở lớp online dạy trực tiếp này mình chỉ nhận số lượng rất ít bạn để đảm bảo chất lượng học, nên là các bạn quan tâm thì cứ thoải mái liên hệ với mình sớm để đăng ký giữ chỗ cho những lớp tiếp theo nha!</strong></p>
+<p>
+  <strong>🔗 Link giới thiệu chi tiết: <a href="https://youtu.be/63opfUkPq6k" target="_blank">Lập Trình MERN Stack Nâng Cao - Học Thực Tế Để Đi Làm</a></strong>
+  <br>
+  <strong>🔗 Liên hệ với mình tại Facebook: <a href="https://www.facebook.com/trungquandev" target="_blank">https://www.facebook.com/trungquandev</a></strong>
+  <br>
+  <strong>📧 Hoặc Email: <a href="mailto:trungquandev.official@gmail.com" target="_top">trungquandev.official@gmail.com</a></strong>
+</p>
+<a href="https://youtu.be/63opfUkPq6k" target="_blank">
+  <img src="images/fair-mern-stack-advanced-banner-trungquandev-scaled.jpeg" width="1200" alt="trungquandev-official" />
+</a>
+
+<br>
+<h2 align="center">📑 My Favorites Quote 📑</h2>
+<br>
+<a href="#" target="_blank">
+  <img src="svg/trungquandev-quotes.svg" width="846" height="150" alt="trungquandev-official" />
+</a>
