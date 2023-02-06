@@ -115,7 +115,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 <br>
 <!-- https://icons8.com -->
 <div align="center">
-<p><strong> 😓 Kid Đú Lập Trình ? </strong></p>
+<p><strong> soi cc 😏 </strong></p>
 <p><strong> 𝓝𝓰𝓾𝔂𝓮̂̃𝓷 𝓣𝓾𝓪̂́𝓷 𝓓𝓾̛𝓸̛𝓷𝓰 <p><strong>
 <p><strong> 7002-30-62 <p><strong>
 
